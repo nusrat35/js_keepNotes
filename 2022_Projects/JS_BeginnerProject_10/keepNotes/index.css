@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(3, 107, 38);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.addNote {
+    float: right;
+    /* vertical-align: middle; */
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    border: none;
+    margin-right: 30px;
+}
+
+.addNote:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    padding: 20px 20px;
+    background-color: rgb(215, 232, 233);
+    height: auto;
+    /* width: 90%; */
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    /* background-color: rgb(3, 107, 38); */
+}
+
+.note {
+    height: 350px;
+    width: 300px;
+    background-color: rgb(3, 107, 38);
+    /* border: 1px solid rgb(3, 107, 38) ; */
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+.operator {
+    float: right;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.deleteNote {
+    color: rgb(235, 45, 20);
+    padding-left: 10px;
+}
+
+.editNote:hover {
+    cursor: pointer;
+    font-size: large;
+}
+
+.deleteNote:hover {
+    cursor: pointer;
+    font-size: large;
+}
+
+.main{
+    height: 85%;
+    width: 93%;
+    padding: 10px 10px;
+    background-color: rgb(227, 248, 168);
+    margin: auto;
+    margin-top: 30px;
+}
+textarea {
+    height: 90%;
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    /* margin: auto; */
+    margin-top: 10px;
+}
+.hidden {
+    display: none;
+}
